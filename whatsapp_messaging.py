@@ -50,7 +50,3 @@ def test_send_message():
     """
     phone_number = config['DEFAULT']['phone_number']
     send_message(phone_number, "Hi Hello, this is a test message")
-
-
-# Usage test this function
-# send_message(ph, "Hi Hello, this is a second test messageees")
